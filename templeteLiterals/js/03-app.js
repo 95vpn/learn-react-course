@@ -9,3 +9,9 @@ function calcularAre(cuadrado) {
 }
 
 console.log(calcularAre(cuadrado));
+
+//como hiria en react
+
+function Avatar({username, url}) {
+    return <img src={url} alt={username}/>
+}

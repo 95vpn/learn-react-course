@@ -10,6 +10,8 @@ const persona = {
 
 console.log(persona)
 
+//como hiría en react
+
 function Component({initialState, totalCount}) {
     const [state, setState] = useState({initialState, totalCount})
 }
